@@ -9,3 +9,4 @@ flask-migrate
 flask-wtf
 marshmallow
 flask-cors
+psycopg2-binary
