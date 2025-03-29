@@ -14,7 +14,7 @@ class ItemSchema(Schema):
     price = fields.Float(required=True)
     store_id = fields.Int(required=True)
 
-S3_BUCKET_NAME = "bucketname"  # Replace with your actual bucket name
+S3_BUCKET_NAME = "name"  # Replace with your actual bucket name
 
 @item_blp.route("/item/<int:item_id>")
 class ItemResource(MethodView):
